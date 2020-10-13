@@ -164,7 +164,7 @@ public class TestDataExtract   {
 					testData.put(header, value);
 				}
 				else {
-					// WaitUtils.wait(2);
+					
 					break;
 				}
 			}
