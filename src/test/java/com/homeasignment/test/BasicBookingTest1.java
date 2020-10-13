@@ -5,6 +5,8 @@ import org.testng.annotations.Test;
 
 import com.homeasignment.utils.SeleniumDriver;
 import com.homeasignmet.pages.CommonInPages;
+import com.homeasignmet.pages.PassangerDetailsPages;
+import com.homeasignmet.pages.SelectFlightActions;
 import com.homeasignmet.pages.WelcomePageActions;
 
 public class BasicBookingTest1 extends SeleniumDriver{
@@ -21,6 +23,17 @@ public class BasicBookingTest1 extends SeleniumDriver{
 		
 		WelcomePageActions welcomepage=new WelcomePageActions();
 		welcomepage.verifyWelcomePageTitle();
+        welcomepage.enterFlightLocations();
+		
+		SelectFlightActions selectflightactions=new SelectFlightActions();
+		//selectflightactions.VerifyPage();
+		selectflightactions.SelectFlight();
+		
+		
+		PassangerDetailsPages passangerdetailsPages=new PassangerDetailsPages();
+		passangerdetailsPages.ProvideEmailAddress();
 		
 	}
+		
+	
 }

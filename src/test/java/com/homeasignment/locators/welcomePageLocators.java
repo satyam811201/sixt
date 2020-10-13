@@ -1,4 +1,4 @@
-package com.homeasignment;
+package com.homeasignment.locators;
 
 import org.openqa.selenium.By;
 
