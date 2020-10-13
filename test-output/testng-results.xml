@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="83866" started-at="2020-10-13T11:32:49 IST" finished-at="2020-10-13T11:34:13 IST">
+  <suite name="Default suite" duration-ms="106146" started-at="2020-10-13T11:44:17 IST" finished-at="2020-10-13T11:46:04 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="83866" started-at="2020-10-13T11:32:49 IST" finished-at="2020-10-13T11:34:13 IST">
+    <test name="Default test" duration-ms="106146" started-at="2020-10-13T11:44:17 IST" finished-at="2020-10-13T11:46:04 IST">
       <class name="com.homeasignment.test.BasicBookingTest1">
-        <test-method status="PASS" signature="ReportStartEngine()[pri:0, instance:com.homeasignment.test.BasicBookingTest1@314c508a]" name="ReportStartEngine" is-config="true" duration-ms="12" started-at="2020-10-13T11:32:49 IST" finished-at="2020-10-13T11:32:49 IST">
+        <test-method status="PASS" signature="ReportStartEngine()[pri:0, instance:com.homeasignment.test.BasicBookingTest1@314c508a]" name="ReportStartEngine" is-config="true" duration-ms="11" started-at="2020-10-13T11:44:17 IST" finished-at="2020-10-13T11:44:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReportStartEngine -->
-        <test-method status="PASS" signature="scenario()[pri:0, instance:com.homeasignment.test.BasicBookingTest1@314c508a]" name="scenario" duration-ms="81947" started-at="2020-10-13T11:32:49 IST" finished-at="2020-10-13T11:34:11 IST">
+        <test-method status="PASS" signature="scenario()[pri:0, instance:com.homeasignment.test.BasicBookingTest1@314c508a]" name="scenario" duration-ms="104270" started-at="2020-10-13T11:44:17 IST" finished-at="2020-10-13T11:46:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario -->
-        <test-method status="PASS" signature="ReportgenerateTestEndEngine(org.testng.ITestResult)[pri:0, instance:com.homeasignment.test.BasicBookingTest1@314c508a]" name="ReportgenerateTestEndEngine" is-config="true" duration-ms="1851" started-at="2020-10-13T11:34:11 IST" finished-at="2020-10-13T11:34:13 IST">
+        <test-method status="PASS" signature="ReportgenerateTestEndEngine(org.testng.ITestResult)[pri:0, instance:com.homeasignment.test.BasicBookingTest1@314c508a]" name="ReportgenerateTestEndEngine" is-config="true" duration-ms="1804" started-at="2020-10-13T11:46:02 IST" finished-at="2020-10-13T11:46:04 IST">
           <params>
             <param index="0">
               <value>

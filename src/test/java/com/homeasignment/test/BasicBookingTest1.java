@@ -26,7 +26,7 @@ public class BasicBookingTest1 extends SeleniumDriver{
         welcomepage.enterFlightLocations();
 		
 		SelectFlightActions selectflightactions=new SelectFlightActions();
-		//selectflightactions.VerifyPage();
+		selectflightactions.VerifyPage();
 		selectflightactions.SelectFlight();
 		
 		

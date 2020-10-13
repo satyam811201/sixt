@@ -13,13 +13,13 @@ import com.homeasignment.utils.WaitElementCondition;
 public class SelectFlightActions extends CommonInPages {
 	
 	
-//	public void VerifyPage() {
-//		//hardcoded value for now
-//		FunctionalUtils.waitForElementPresent(SeleniumDriver.getDriver(), welcomePageLocators.To_Location, 90);
-//		FunctionalUtils.checkPageTitle(SeleniumDriver.getDriver(), "Cleartrip | Bangalore → Kolkata");
-//	
-//	
-//	}
+	public void VerifyPage() {
+		//hardcoded value for now
+		 WaitElementCondition.wait(06);
+		FunctionalUtils.checkPageTitle(SeleniumDriver.getDriver(), "Cleartrip | Bangalore → Kolkata");
+	
+	
+	}
 	
 public void SelectFlight() {
 	

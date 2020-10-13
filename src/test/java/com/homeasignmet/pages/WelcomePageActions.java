@@ -17,6 +17,7 @@ public class WelcomePageActions extends CommonInPages{
 
 	
 	public void verifyWelcomePageTitle() {
+		WaitElementCondition.wait(05);
 		SeleniumDriver.getDriver().manage().timeouts().pageLoadTimeout(150, TimeUnit.SECONDS);
 		FunctionalUtils.checkPageTitle(SeleniumDriver.getDriver(), "#1 Site for Booking Flights, Hotels, Packages, Trains & Local activities.");
 			
