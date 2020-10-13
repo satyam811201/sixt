@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
+import com.homeasignmet.pages.CommonInPages;
 
 
 public class SeleniumDriver {
@@ -75,7 +75,7 @@ public class SeleniumDriver {
 		}
 
 		dataMap.clear();
-
+		CommonInPages.variblesMethods=null;
 		//close browser
 		if (driver != null) {
 			driver.close();
